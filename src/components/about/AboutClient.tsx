@@ -5,8 +5,8 @@ import OurStory from "./OurStory";
 import Timeline from "./Timeline";
 import TeamSection from "./TeamSection";
 import ValuesSection from "./ValuesSection";
-// import PartnerSection from "./PartnerSection";
-// import AboutCTA from "./AboutCTA";
+import PartnerSection from "./PartnerSection";
+import AboutCTA from "./AboutCTA";
 
 export default function AboutClient() {
   return (
@@ -18,8 +18,8 @@ export default function AboutClient() {
       <Timeline />
       <ValuesSection />
       <TeamSection />
-      {/* <PartnerSection /> */}
-      {/* <AboutCTA /> */}
+      <PartnerSection />
+      <AboutCTA />
     </div>
   );
 }
